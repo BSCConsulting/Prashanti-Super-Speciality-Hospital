@@ -105,6 +105,7 @@ export const departments: Department[] = [
     doctorIds: ["dr-jeevan-kumar", "dr-krishna-prasad"],
     icon: "kidney",
     pathway: ["Consult", "Diagnose", "Long-term care"],
+    highlights: ["Urology & M.Ch. care", "DM Nephrology", "Dialysis pathway guidance"],
   },
   {
     id: "neurosurgery",
@@ -115,6 +116,7 @@ export const departments: Department[] = [
     doctorIds: ["dr-bhaskar"],
     icon: "brain",
     pathway: ["Assess", "Image", "Operate"],
+    highlights: ["Brain surgery", "Spine care", "Trauma neuro support"],
   },
   {
     id: "orthopedics",
@@ -125,6 +127,7 @@ export const departments: Department[] = [
     doctorIds: ["dr-raj-kumar"],
     icon: "bone",
     pathway: ["Stabilize", "Repair", "Mobilize"],
+    highlights: ["Fracture care", "Joint & trauma", "Emergency ortho"],
   },
   {
     id: "general-medicine",
@@ -135,6 +138,7 @@ export const departments: Department[] = [
     doctorIds: ["dr-bharat-babu"],
     icon: "heart-pulse",
     pathway: ["Triage", "Monitor", "Recover"],
+    highlights: ["24/7 critical care", "Complex medicine", "ICU-led pathways"],
   },
   {
     id: "general-surgery",
@@ -145,6 +149,7 @@ export const departments: Department[] = [
     doctorIds: ["dr-hemanth"],
     icon: "scalpel",
     pathway: ["Plan", "Operate", "Follow-up"],
+    highlights: ["Laparoscopic surgery", "General surgery", "Day-care options"],
   },
 ];
 

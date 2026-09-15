@@ -30,10 +30,10 @@ export default function Header() {
       <div className="border-b border-white/10 bg-forest-deep/90 backdrop-blur-md">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
           <a href="#home" className="min-w-0">
-            <span className="block truncate text-sm font-semibold tracking-wide text-stone">
-              Prashanti
+            <span className="font-display block truncate text-base font-bold tracking-[0.18em] text-white uppercase sm:text-lg">
+              PRASHANTI
             </span>
-            <span className="block truncate text-[10px] tracking-[0.12em] text-copper-soft uppercase">
+            <span className="mt-0.5 block truncate text-[9px] font-medium tracking-[0.22em] text-copper-soft uppercase sm:text-[10px]">
               Super Speciality Hospital
             </span>
           </a>

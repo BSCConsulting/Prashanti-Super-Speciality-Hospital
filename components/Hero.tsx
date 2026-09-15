@@ -22,37 +22,41 @@ export default function Hero() {
         style={{ backgroundImage: `url('${bg}')` }}
         aria-hidden
       />
-      <div className="absolute inset-0 bg-forest/78" aria-hidden />
+      <div className="absolute inset-0 bg-forest-deep/85" aria-hidden />
       <div
         className="pointer-events-none absolute inset-0"
         style={{
           background:
-            "radial-gradient(ellipse at 50% 60%, rgba(184,115,51,0.18), transparent 55%)",
+            "radial-gradient(ellipse at 50% 45%, rgba(184,115,51,0.28), transparent 50%)",
         }}
         aria-hidden
       />
 
       <div className="relative z-10 mx-auto max-w-5xl px-4 py-20 text-center">
-        <p className="animate-fade-up mb-4 text-xs font-medium tracking-[0.35em] text-copper-soft uppercase">
+        <p className="animate-fade-up mb-5 text-[11px] font-semibold tracking-[0.4em] text-copper uppercase sm:text-xs">
           Khammam · Telangana · NABH · ISO
         </p>
-        <h1 className="font-display animate-fade-up-delay text-4xl leading-[1.05] font-semibold tracking-tight text-stone sm:text-5xl md:text-6xl lg:text-7xl">
-          <span className="block">Prashanti</span>
-          <span className="mt-1 block text-[0.72em] font-semibold text-copper-soft sm:mt-2">
+
+        <h1 className="animate-fade-up-delay">
+          <span className="font-display block text-5xl font-bold tracking-[0.14em] text-white uppercase drop-shadow-[0_2px_24px_rgba(0,0,0,0.45)] sm:text-6xl md:text-7xl lg:text-8xl">
+            PRASHANTI
+          </span>
+          <span className="mt-4 inline-block border-t border-copper/60 pt-4 text-sm font-medium tracking-[0.28em] text-copper-soft uppercase sm:text-base md:tracking-[0.35em]">
             Super Speciality Hospital
           </span>
         </h1>
-        <p className="animate-fade-up-delay-2 mx-auto mt-5 max-w-xl text-base text-stone/80 sm:text-lg">
+
+        <p className="animate-fade-up-delay-2 mx-auto mt-6 max-w-xl text-base text-white/85 sm:text-lg">
           {HOSPITAL.tagline} · {HOSPITAL.hoursLabel}
         </p>
-        <p className="animate-fade-up-delay-2 mx-auto mt-2 max-w-lg text-sm text-stone/55">
-          Renal sciences · Neurosurgery · Orthopedics · Critical care · Surgery
+        <p className="animate-fade-up-delay-2 mx-auto mt-2 max-w-lg text-sm tracking-wide text-white/50">
+          Renal · Neuro · Ortho · Critical Care · Surgery
         </p>
 
-        <div className="animate-fade-up-delay-2 mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row">
+        <div className="animate-fade-up-delay-2 mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
           <a
             href={`tel:${HOSPITAL.emergencyLandlineTel}`}
-            className="inline-flex min-w-[11rem] items-center justify-center gap-2 rounded-full border border-copper bg-transparent px-6 py-3 text-sm font-semibold text-copper-soft transition hover:bg-copper/15"
+            className="inline-flex min-w-[12rem] items-center justify-center gap-2 rounded-full border-2 border-copper bg-transparent px-6 py-3.5 text-sm font-bold tracking-wide text-copper-soft transition hover:bg-copper hover:text-forest-deep"
           >
             <Phone className="h-4 w-4" aria-hidden />
             Call Helpline
@@ -61,7 +65,7 @@ export default function Hero() {
             href={HOSPITAL.whatsappEnquire}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex min-w-[11rem] items-center justify-center gap-2 rounded-full bg-copper px-6 py-3 text-sm font-semibold text-forest-deep transition hover:bg-copper-soft"
+            className="inline-flex min-w-[12rem] items-center justify-center gap-2 rounded-full bg-copper px-6 py-3.5 text-sm font-bold tracking-wide text-forest-deep transition hover:bg-copper-soft"
           >
             <MessageCircle className="h-4 w-4" aria-hidden />
             WhatsApp Enquiry
@@ -70,13 +74,13 @@ export default function Hero() {
 
         <a
           href="#callback"
-          className="mt-5 inline-block text-xs text-stone/55 underline-offset-4 hover:text-stone/80 hover:underline"
+          className="mt-5 inline-block text-xs text-white/45 underline-offset-4 hover:text-white/75 hover:underline"
         >
           Or request a callback
         </a>
 
-        <p className="scroll-cue mt-14 text-xs tracking-[0.25em] text-stone/55 uppercase">
-          Meet our consultants · Renal · Neuro · Ortho
+        <p className="scroll-cue mt-14 text-[10px] tracking-[0.35em] text-white/45 uppercase">
+          Explore institutes · Meet consultants
         </p>
       </div>
     </section>

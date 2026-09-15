@@ -16,11 +16,9 @@ export type Department = {
   description: string;
   doctorIds: string[];
   icon: "heart-pulse" | "kidney" | "brain" | "bone" | "scalpel";
-  /** Editorial chapter eyebrow */
   chapter: string;
-  /** Micro-pathway labels shown on the infographic panel */
   pathway: [string, string, string];
-  /** Optional image under public/institutes/{id}.jpg */
+  highlights: [string, string, string];
   panelImage?: string;
 };
 

@@ -14,10 +14,13 @@ export default function AboutSection() {
             A super speciality hospital for Khammam
           </h2>
           <p className="mt-5 text-base leading-relaxed text-forest/70">
-            {HOSPITAL.name} on Bhavani Mess Road, Nehru
-            Nagar, serves families across Khammam and neighbouring districts
-            with institute-led super speciality care — renal sciences,
-            neurosurgery, orthopedics, critical care, and surgery.
+            <span className="font-display font-bold tracking-[0.06em] text-forest uppercase">
+              PRASHANTI
+            </span>{" "}
+            Super Speciality Hospital on Bhavani Mess Road, Nehru Nagar, serves
+            families across Khammam and neighbouring districts with institute-led
+            care — renal sciences, neurosurgery, orthopedics, critical care, and
+            surgery.
           </p>
           <p className="mt-4 text-base leading-relaxed text-forest/70">
             Under the leadership of{" "}
@@ -66,34 +69,27 @@ export default function AboutSection() {
             </ul>
           </div>
 
-          <div className="grid gap-3 sm:grid-cols-2">
+          <div className="flex items-center gap-3 px-1">
+            <p className="text-[11px] tracking-[0.2em] text-forest/40 uppercase">
+              Social
+            </p>
             <a
               href={HOSPITAL.instagram}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-3 rounded-2xl border border-copper/30 bg-forest px-4 py-4 text-stone transition hover:border-copper"
+              aria-label="Instagram"
+              className="flex h-10 w-10 items-center justify-center rounded-full border border-forest/15 text-forest/70 transition hover:border-copper hover:text-copper"
             >
-              <InstagramIcon className="h-6 w-6 shrink-0 text-copper-soft" />
-              <div className="min-w-0">
-                <p className="text-sm font-semibold">Instagram</p>
-                <p className="truncate text-xs text-stone/60">
-                  {HOSPITAL.instagramHandle}
-                </p>
-              </div>
+              <InstagramIcon className="h-4 w-4" />
             </a>
             <a
               href={HOSPITAL.facebook}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-3 rounded-2xl border border-copper/30 bg-forest px-4 py-4 text-stone transition hover:border-copper"
+              aria-label="Facebook"
+              className="flex h-10 w-10 items-center justify-center rounded-full border border-forest/15 text-forest/70 transition hover:border-copper hover:text-copper"
             >
-              <FacebookIcon className="h-6 w-6 shrink-0 text-copper-soft" />
-              <div className="min-w-0">
-                <p className="text-sm font-semibold">Facebook</p>
-                <p className="truncate text-xs text-stone/60">
-                  {HOSPITAL.facebookLabel}
-                </p>
-              </div>
+              <FacebookIcon className="h-4 w-4" />
             </a>
           </div>
         </div>
