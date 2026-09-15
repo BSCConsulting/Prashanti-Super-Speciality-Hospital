@@ -4,8 +4,8 @@ import path from "path";
 import { HOSPITAL } from "@/lib/data";
 
 const SLOTS = [
-  { file: "campus/exterior.jpg", label: "Campus exterior", alt: "Prashanthi hospital exterior" },
-  { file: "campus/care.jpg", label: "Patient care", alt: "Care at Prashanthi Hospital" },
+  { file: "campus/exterior.jpg", label: "Campus exterior", alt: "Prashanti Super Speciality Hospital exterior" },
+  { file: "campus/care.jpg", label: "Patient care", alt: "Care at Prashanti Super Speciality Hospital" },
   { file: "campus/entrance.jpg", label: "Entrance", alt: "Hospital entrance on Bhavani Mess Road" },
 ] as const;
 
@@ -25,11 +25,11 @@ export default function CampusGallery() {
               Campus
             </p>
             <h2 className="font-display mt-2 text-3xl font-semibold sm:text-4xl">
-              See Prashanthi
+              See Prashanti Super Speciality Hospital
             </h2>
             <p className="mt-2 max-w-md text-sm text-stone/60">
-              Follow campus life, camps, and updates on Instagram — or visit us
-              on Bhavani Mess Road, Nehru Nagar.
+              Follow campus life, camps, and updates on Instagram — or visit our
+              super speciality campus on Bhavani Mess Road, Nehru Nagar.
             </p>
           </div>
           <a

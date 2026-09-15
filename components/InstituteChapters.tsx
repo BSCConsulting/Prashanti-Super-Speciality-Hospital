@@ -19,8 +19,8 @@ export default function InstituteChapters() {
           Our institutes
         </h2>
         <p className="mt-3 max-w-xl text-forest/65">
-          Scroll through the care pillars that define Prashanthi — named teams,
-          clear pathways, Khammam pride.
+          Scroll through the care pillars that define Prashanti Super Speciality
+          Hospital — named teams, clear pathways, Khammam pride.
         </p>
 
         <div className="mt-12 space-y-6">

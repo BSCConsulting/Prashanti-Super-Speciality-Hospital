@@ -48,7 +48,7 @@ export default function SocialLinks({ variant = "icons", className = "" }: Props
           href={href}
           target="_blank"
           rel="noopener noreferrer"
-          aria-label={`Prashanthi on ${label}`}
+          aria-label={`Prashanti Super Speciality Hospital on ${label}`}
           title={label}
           className="flex h-11 w-11 items-center justify-center rounded-full border border-copper/40 text-copper-soft transition hover:bg-copper/15 hover:text-copper"
         >

@@ -29,8 +29,13 @@ export default function Header() {
 
       <div className="border-b border-white/10 bg-forest-deep/90 backdrop-blur-md">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
-          <a href="#home" className="text-sm font-medium tracking-[0.2em] text-stone/90 uppercase">
-            {HOSPITAL.shortName}
+          <a href="#home" className="min-w-0">
+            <span className="block truncate text-sm font-semibold tracking-wide text-stone">
+              Prashanti
+            </span>
+            <span className="block truncate text-[10px] tracking-[0.12em] text-copper-soft uppercase">
+              Super Speciality Hospital
+            </span>
           </a>
 
           <nav className="hidden items-center gap-7 md:flex" aria-label="Main">

@@ -95,18 +95,18 @@ export default function Chatbot() {
         <div
           className="flex h-[min(34rem,72svh)] w-[min(22.5rem,calc(100vw-2rem))] flex-col overflow-hidden rounded-2xl border border-forest/15 bg-white shadow-2xl"
           role="dialog"
-          aria-label="Prashanthi Desk"
+          aria-label="Prashanti Desk"
         >
           <div className="flex items-center justify-between bg-forest-deep px-4 py-3 text-stone">
             <div>
-              <p className="text-sm font-semibold">Prashanthi Desk</p>
+              <p className="text-sm font-semibold">Prashanti Desk</p>
               <p className="text-xs text-stone/55">Call-first help · No AI</p>
             </div>
             <button
               type="button"
               onClick={() => setOpen(false)}
               className="rounded-lg p-1 hover:bg-white/10"
-              aria-label="Close Prashanthi Desk"
+              aria-label="Close Prashanti Desk"
             >
               <X className="h-5 w-5" />
             </button>
@@ -116,7 +116,7 @@ export default function Chatbot() {
             {view === "menu" && (
               <div className="space-y-2">
                 <p className="mb-3 text-sm text-forest/70">
-                  How can Prashanthi Desk help?
+                  How can Prashanti Desk help?
                 </p>
                 <a
                   href={`tel:${HOSPITAL.emergencyLandlineTel}`}
@@ -338,7 +338,7 @@ export default function Chatbot() {
         type="button"
         onClick={() => setOpen((v) => !v)}
         className="flex h-14 w-14 items-center justify-center rounded-full bg-copper text-forest-deep shadow-lg transition hover:bg-copper-soft"
-        aria-label={open ? "Close Prashanthi Desk" : "Open Prashanthi Desk"}
+        aria-label={open ? "Close Prashanti Desk" : "Open Prashanti Desk"}
       >
         {open ? <X className="h-6 w-6" /> : <MessageCircle className="h-6 w-6" />}
       </button>

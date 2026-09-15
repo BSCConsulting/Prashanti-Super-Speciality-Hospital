@@ -23,13 +23,14 @@ const siteUrl = "https://prashanti-super-speciality-hospital.vercel.app";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Prashanthi Super Speciality Hospital | Khammam",
-    template: "%s | Prashanthi Hospital Khammam",
+    default: "Prashanti Super Speciality Hospital | Khammam",
+    template: "%s | Prashanti Super Speciality Hospital",
   },
   description:
-    "NABH & ISO recognised super speciality hospital in Nehru Nagar, Khammam. 24/7 emergency 08742-222424. Renal, neuro, ortho, critical care & surgery.",
+    "Prashanti Super Speciality Hospital, Nehru Nagar, Khammam — NABH & ISO recognised. 24/7 emergency 08742-222424. Renal, neuro, ortho, critical care & surgery.",
   keywords: [
-    "Prashanthi Hospital Khammam",
+    "Prashanti Super Speciality Hospital Khammam",
+    "Prashanti Hospital Khammam",
     "super speciality hospital Khammam",
     "Nehru Nagar hospital",
     "NABH hospital Khammam",
@@ -39,16 +40,16 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_IN",
     url: siteUrl,
-    siteName: "Prashanthi Super Speciality Hospital",
-    title: "Prashanthi Super Speciality Hospital | Khammam",
+    siteName: "Prashanti Super Speciality Hospital",
+    title: "Prashanti Super Speciality Hospital | Khammam",
     description:
-      "Institute-led care in Khammam — 24/7 emergency, NABH & ISO. Call 08742-222424.",
+      "Super speciality care in Khammam — 24/7 emergency, NABH & ISO. Call 08742-222424.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Prashanthi Super Speciality Hospital | Khammam",
+    title: "Prashanti Super Speciality Hospital | Khammam",
     description:
-      "24/7 emergency care in Nehru Nagar, Khammam. Call 08742-222424.",
+      "Super speciality hospital in Nehru Nagar, Khammam. 24/7 emergency: 08742-222424.",
   },
   robots: { index: true, follow: true },
 };

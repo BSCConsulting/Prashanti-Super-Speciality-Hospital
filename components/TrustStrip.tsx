@@ -11,6 +11,9 @@ export default function TrustStrip() {
     >
       <div className="mx-auto flex max-w-6xl flex-col gap-5 lg:flex-row lg:items-center lg:justify-between">
         <div className="flex flex-wrap items-center gap-2 sm:gap-3">
+          <span className="inline-flex items-center gap-1.5 rounded-full bg-copper/15 px-3 py-1.5 text-xs font-semibold tracking-wide text-forest">
+            Super Speciality
+          </span>
           <span className="inline-flex items-center gap-1.5 rounded-full bg-forest px-3 py-1.5 text-xs font-semibold tracking-wide text-stone">
             <BadgeCheck className="h-3.5 w-3.5 text-copper-soft" aria-hidden />
             NABH

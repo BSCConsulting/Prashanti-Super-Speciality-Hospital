@@ -32,15 +32,21 @@ export default function Hero() {
         aria-hidden
       />
 
-      <div className="relative z-10 mx-auto max-w-4xl px-4 py-20 text-center">
+      <div className="relative z-10 mx-auto max-w-5xl px-4 py-20 text-center">
         <p className="animate-fade-up mb-4 text-xs font-medium tracking-[0.35em] text-copper-soft uppercase">
           Khammam · Telangana · NABH · ISO
         </p>
-        <h1 className="font-display animate-fade-up-delay text-6xl leading-[0.95] font-semibold tracking-tight text-stone sm:text-7xl md:text-8xl lg:text-9xl">
-          PRASHANTHI
+        <h1 className="font-display animate-fade-up-delay text-4xl leading-[1.05] font-semibold tracking-tight text-stone sm:text-5xl md:text-6xl lg:text-7xl">
+          <span className="block">Prashanti</span>
+          <span className="mt-1 block text-[0.72em] font-semibold text-copper-soft sm:mt-2">
+            Super Speciality Hospital
+          </span>
         </h1>
-        <p className="animate-fade-up-delay-2 mx-auto mt-5 max-w-lg text-base text-stone/80 sm:text-lg">
-          Institute-led care for Khammam families · {HOSPITAL.hoursLabel}
+        <p className="animate-fade-up-delay-2 mx-auto mt-5 max-w-xl text-base text-stone/80 sm:text-lg">
+          {HOSPITAL.tagline} · {HOSPITAL.hoursLabel}
+        </p>
+        <p className="animate-fade-up-delay-2 mx-auto mt-2 max-w-lg text-sm text-stone/55">
+          Renal sciences · Neurosurgery · Orthopedics · Critical care · Surgery
         </p>
 
         <div className="animate-fade-up-delay-2 mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row">

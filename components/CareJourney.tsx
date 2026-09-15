@@ -35,9 +35,9 @@ export default function CareJourney() {
 
         <div className="mt-16 grid gap-4 rounded-2xl bg-stone/80 p-6 sm:grid-cols-3 sm:p-8">
           {[
+            { title: "Hospital type", detail: "Super speciality · multi-institute" },
             { title: "24/7 emergency", detail: HOSPITAL.hoursLabel },
             { title: "Quality marks", detail: HOSPITAL.accreditations.join(" · ") },
-            { title: "We serve", detail: HOSPITAL.serving },
           ].map((card) => (
             <div key={card.title}>
               <p className="text-xs tracking-[0.2em] text-forest/40 uppercase">

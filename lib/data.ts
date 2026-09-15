@@ -1,9 +1,11 @@
 import type { Department, Doctor } from "@/types";
 
 export const HOSPITAL = {
-  name: "Prashanthi Super Speciality Hospital",
-  shortName: "Prashanthi",
+  name: "Prashanti Super Speciality Hospital",
+  shortName: "Prashanti",
+  brandFull: "Prashanti Super Speciality Hospital",
   city: "Khammam",
+  tagline: "Super speciality care for Khammam families",
   emergencyLandline: "08742-222424",
   emergencyLandlineTel: "08742222424",
   emergencyMobile: "+91 90003 97547",

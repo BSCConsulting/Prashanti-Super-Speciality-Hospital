@@ -7,9 +7,11 @@ export default function ContactFooter() {
     <footer id="contact" className="bg-forest-deep px-4 py-16 text-stone">
       <div className="mx-auto grid max-w-6xl gap-10 lg:grid-cols-2">
         <div>
-          <p className="font-display text-3xl font-semibold">Prashanthi</p>
+          <p className="font-display text-2xl font-semibold sm:text-3xl">
+            {HOSPITAL.name}
+          </p>
           <p className="mt-2 text-sm text-stone/60">
-            Super Speciality Hospital · {HOSPITAL.city}
+            Super speciality care · {HOSPITAL.city}, Telangana
           </p>
           <p className="mt-4 flex items-start gap-2 text-sm leading-relaxed text-stone/75">
             <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-copper" aria-hidden />
@@ -82,7 +84,7 @@ export default function ContactFooter() {
           </a>
           <div className="mt-6 overflow-hidden rounded-xl border border-white/10">
             <iframe
-              title="Prashanthi Hospital map"
+              title={`${HOSPITAL.name} map`}
               src={`https://maps.google.com/maps?q=${HOSPITAL.lat},${HOSPITAL.lng}&z=16&output=embed`}
               className="h-48 w-full grayscale-[20%] contrast-125"
               loading="lazy"

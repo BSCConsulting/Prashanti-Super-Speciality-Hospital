@@ -13,10 +13,10 @@ export default function DoctorPride() {
     <section id="doctors" className="bg-forest-deep px-4 py-20 text-stone sm:py-28">
       <div className="mx-auto max-w-6xl">
         <p className="text-xs font-medium tracking-[0.3em] text-copper-soft uppercase">
-          Consultants
+          Consultants · {HOSPITAL.name}
         </p>
         <h2 className="font-display mt-2 text-4xl font-semibold sm:text-5xl">
-          Faces of Prashanthi
+          Faces of care
         </h2>
         <p className="mt-3 max-w-xl text-stone/65">
           Our doctors — credentials forward, portraits proud. Call the helpline

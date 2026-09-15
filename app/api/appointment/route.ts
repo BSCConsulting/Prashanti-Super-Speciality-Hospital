@@ -69,7 +69,7 @@ export async function POST(request: Request) {
           to: "bsc.consulting123@gmail.com",
           subject: `New appointment inquiry — ${row.patient_name}`,
           html: `
-            <h2>Prashanthi Hospital — New Patient Inquiry</h2>
+            <h2>Prashanti Super Speciality Hospital — New Patient Inquiry</h2>
             <p><strong>Name:</strong> ${escapeHtml(row.patient_name)}</p>
             <p><strong>Phone:</strong> ${escapeHtml(row.phone)}</p>
             <p><strong>Department:</strong> ${escapeHtml(row.department)}</p>

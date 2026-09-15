@@ -31,7 +31,7 @@ export const faqs: FaqItem[] = [
     id: "er-24-7",
     category: "emergency",
     q: "Is the ER open 24/7?",
-    a: "Yes. Prashanthi is open 24 hours. For emergencies call 08742-222424 or +91 90003 97547.",
+    a: "Yes. Prashanti Super Speciality Hospital is open 24 hours. For emergencies call 08742-222424 or +91 90003 97547.",
   },
   {
     id: "er-landline",
@@ -61,7 +61,7 @@ export const faqs: FaqItem[] = [
     id: "appt-how",
     category: "appointments",
     q: "How do I book an appointment?",
-    a: "Call or WhatsApp is fastest. You can also request a callback on the website or through Prashanthi Desk.",
+    a: "Call or WhatsApp is fastest. You can also request a callback on the website or through Prashanti Desk.",
   },
   {
     id: "appt-online",
@@ -175,7 +175,7 @@ export const faqs: FaqItem[] = [
     id: "trust-nabh",
     category: "trust",
     q: "Are you NABH / ISO certified?",
-    a: "Yes. Prashanthi Super Speciality Hospital holds NABH and ISO quality recognition.",
+    a: "Yes. Prashanti Super Speciality Hospital holds NABH and ISO quality recognition.",
   },
   {
     id: "trust-google",

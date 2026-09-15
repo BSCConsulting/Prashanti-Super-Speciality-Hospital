@@ -11,13 +11,13 @@ export default function AboutSection() {
             About
           </p>
           <h2 className="font-display mt-2 text-4xl font-semibold text-forest sm:text-5xl">
-            Care with standards for Khammam
+            A super speciality hospital for Khammam
           </h2>
           <p className="mt-5 text-base leading-relaxed text-forest/70">
-            Prashanthi Super Speciality Hospital on Bhavani Mess Road, Nehru
+            {HOSPITAL.name} on Bhavani Mess Road, Nehru
             Nagar, serves families across Khammam and neighbouring districts
-            with institute-led care — renal sciences, neurosurgery, orthopedics,
-            critical care, and surgery.
+            with institute-led super speciality care — renal sciences,
+            neurosurgery, orthopedics, critical care, and surgery.
           </p>
           <p className="mt-4 text-base leading-relaxed text-forest/70">
             Under the leadership of{" "}
