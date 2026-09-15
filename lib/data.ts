@@ -44,6 +44,7 @@ export const doctors: Doctor[] = [
     specialty: "General Medicine & Critical Care",
     departmentId: "general-medicine",
     focus: "Critical care and complex medical management for Khammam families.",
+    photo: "/doctors/dr-bharat-babu.jpg",
   },
   {
     id: "dr-jeevan-kumar",
@@ -52,6 +53,7 @@ export const doctors: Doctor[] = [
     specialty: "Institute of Renal Sciences",
     departmentId: "renal-sciences",
     focus: "Advanced urological care within our renal sciences institute.",
+    photo: "/doctors/dr-jeevan-kumar.jpg",
   },
   {
     id: "dr-krishna-prasad",
@@ -60,6 +62,7 @@ export const doctors: Doctor[] = [
     specialty: "Institute of Renal Sciences",
     departmentId: "renal-sciences",
     focus: "Nephrology and kidney care with institute-level continuity.",
+    photo: "/doctors/dr-krishna-prasad.jpg",
   },
   {
     id: "dr-bhaskar",
@@ -68,6 +71,7 @@ export const doctors: Doctor[] = [
     specialty: "Neurosurgery & Spine Care",
     departmentId: "neurosurgery",
     focus: "Brain and spine surgery with precision and calm guidance.",
+    photo: "/doctors/dr-bhaskar.jpg",
   },
   {
     id: "dr-raj-kumar",
@@ -76,6 +80,7 @@ export const doctors: Doctor[] = [
     specialty: "Orthopedics & Trauma",
     departmentId: "orthopedics",
     focus: "Trauma, fractures, and joint care when every hour matters.",
+    photo: "/doctors/dr-raj-kumar.jpg",
   },
   {
     id: "dr-hemanth",
@@ -84,6 +89,7 @@ export const doctors: Doctor[] = [
     specialty: "General & Laparoscopic Surgery",
     departmentId: "general-surgery",
     focus: "Open and laparoscopic surgery with a patient-first approach.",
+    photo: "/doctors/dr-hemanth.jpg",
   },
 ];
 

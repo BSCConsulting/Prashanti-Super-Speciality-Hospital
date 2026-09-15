@@ -22,6 +22,10 @@ export default function DoctorPride() {
           Our doctors — credentials forward, portraits proud. Call the helpline
           to book with a named consultant.
         </p>
+        <p className="mt-2 max-w-xl text-xs text-copper/70">
+          Temporary stock portraits for layout — replace with official consultant
+          photos when ready.
+        </p>
 
         <ul className="mt-14 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {doctors.map((doc, i) => (
