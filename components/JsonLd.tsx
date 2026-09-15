@@ -7,7 +7,7 @@ export default function JsonLd() {
     "@context": "https://schema.org",
     "@type": "Hospital",
     name: HOSPITAL.name,
-    url: "https://prashanthi-hospital.vercel.app",
+    url: "https://prashanti-super-speciality-hospital.vercel.app",
     telephone: [HOSPITAL.emergencyLandline, HOSPITAL.emergencyMobile],
     address: {
       "@type": "PostalAddress",

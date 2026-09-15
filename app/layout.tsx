@@ -18,7 +18,7 @@ const cormorant = Cormorant_Garamond({
   display: "swap",
 });
 
-const siteUrl = "https://prashanthi-hospital.vercel.app";
+const siteUrl = "https://prashanti-super-speciality-hospital.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
